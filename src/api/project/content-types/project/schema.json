@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "externalUrl": {
+      "type": "string"
+    },
+    "orderWeight": {
+      "unique": true,
+      "required": true,
+      "type": "integer"
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}

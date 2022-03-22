@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "unique": true
+    },
+    "backgroundColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "theme.colors"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.editorial"
+    }
+  }
+}
