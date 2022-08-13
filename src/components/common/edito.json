@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_common_editos",
+  "info": {
+    "displayName": "edito",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.buttons"
+    }
+  }
+}

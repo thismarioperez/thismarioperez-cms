@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_common_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    }
+  }
+}
