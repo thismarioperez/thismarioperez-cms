@@ -12,20 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
-      "required": true
-    },
-    "Slug": {
-      "type": "uid",
-      "targetField": "Title",
       "required": true
     },
     "blocks": {
       "type": "dynamiczone",
       "components": [
-        "blocks.interior"
+        "blocks.interior",
+        "blocks.hero"
       ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

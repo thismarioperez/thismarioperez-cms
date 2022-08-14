@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.edito"
+    }
+  }
+}

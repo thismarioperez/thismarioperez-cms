@@ -18,8 +18,8 @@
     },
     "buttons": {
       "type": "component",
-      "repeatable": false,
-      "component": "common.buttons"
+      "repeatable": true,
+      "component": "common.button"
     }
   }
 }
