@@ -2,7 +2,8 @@
   "collectionName": "components_common_buttons",
   "info": {
     "displayName": "Button",
-    "icon": "external-link-alt"
+    "icon": "external-link-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,10 +12,17 @@
       "relation": "oneToOne",
       "target": "api::color.color"
     },
-    "link": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.link"
+    "label": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    },
+    "href": {
+      "type": "string"
     }
   }
 }

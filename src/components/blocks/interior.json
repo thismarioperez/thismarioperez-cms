@@ -6,15 +6,19 @@
   },
   "options": {},
   "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
     "backgroundColor": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::color.color"
-    },
-    "content": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.edito"
     }
   }
 }

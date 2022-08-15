@@ -2,21 +2,29 @@
   "collectionName": "components_navigation_items",
   "info": {
     "displayName": "Item",
-    "icon": "list"
+    "icon": "list",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "link": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.link"
-    },
     "style": {
       "type": "enumeration",
       "enum": [
         "none",
         "border"
       ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    },
+    "href": {
+      "type": "string"
     }
   }
 }

@@ -20,11 +20,9 @@
       "targetField": "label"
     },
     "items": {
-      "type": "dynamiczone",
-      "components": [
-        "navigation.item",
-        "navigation.dropdown"
-      ]
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.item"
     }
   }
 }
