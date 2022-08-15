@@ -20,13 +20,13 @@
       "repeatable": true,
       "component": "common.link"
     },
-    "Content": {
+    "content": {
       "type": "richtext"
     },
     "slug": {
       "type": "uid",
       "targetField": "title",
-      "required": true
+      "required": false
     }
   }
 }
