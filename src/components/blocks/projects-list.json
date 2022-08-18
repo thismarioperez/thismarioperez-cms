@@ -2,7 +2,8 @@
   "collectionName": "components_blocks_projects_lists",
   "info": {
     "displayName": "Projects List",
-    "icon": "briefcase"
+    "icon": "briefcase",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::project.project"
+    },
+    "backgroundColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "theme.background-color"
     }
   }
 }

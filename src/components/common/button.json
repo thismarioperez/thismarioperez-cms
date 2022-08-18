@@ -7,11 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "color": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::color.color"
-    },
     "label": {
       "type": "string"
     },
@@ -23,6 +18,11 @@
     },
     "href": {
       "type": "string"
+    },
+    "color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "theme.color"
     }
   }
 }

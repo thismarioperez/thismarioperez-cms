@@ -2,7 +2,8 @@
   "collectionName": "components_blocks_interiors",
   "info": {
     "displayName": "Interior",
-    "icon": "align-center"
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,9 +17,9 @@
       "type": "richtext"
     },
     "backgroundColor": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::color.color"
+      "type": "component",
+      "repeatable": false,
+      "component": "theme.background-color"
     }
   }
 }
