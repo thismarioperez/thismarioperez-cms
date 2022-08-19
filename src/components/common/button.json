@@ -23,6 +23,22 @@
       "type": "component",
       "repeatable": false,
       "component": "theme.color"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "thin"
+      ],
+      "default": "default"
+    },
+    "round": {
+      "type": "boolean",
+      "default": true
+    },
+    "contained": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
