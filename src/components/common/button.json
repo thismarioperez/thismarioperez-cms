@@ -19,11 +19,6 @@
     "href": {
       "type": "string"
     },
-    "color": {
-      "type": "component",
-      "repeatable": false,
-      "component": "theme.color"
-    },
     "type": {
       "type": "enumeration",
       "enum": [
@@ -34,11 +29,24 @@
     },
     "round": {
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "contained": {
       "type": "boolean",
       "default": true
+    },
+    "hollow": {
+      "type": "boolean",
+      "default": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "light",
+        "dark"
+      ]
     }
   }
 }

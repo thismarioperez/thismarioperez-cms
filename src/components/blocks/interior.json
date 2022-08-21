@@ -17,9 +17,13 @@
       "type": "richtext"
     },
     "backgroundColor": {
-      "type": "component",
-      "repeatable": false,
-      "component": "theme.background-color"
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "light",
+        "dark"
+      ]
     }
   }
 }

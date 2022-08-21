@@ -11,11 +11,6 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::project.project"
-    },
-    "backgroundColor": {
-      "type": "component",
-      "repeatable": false,
-      "component": "theme.background-color"
     }
   }
 }
