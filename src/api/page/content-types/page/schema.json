@@ -19,8 +19,9 @@
     "blocks": {
       "type": "dynamiczone",
       "components": [
-        "blocks.projects-list",
-        "blocks.interior"
+        "blocks.hero",
+        "blocks.interior",
+        "blocks.projects-list"
       ]
     },
     "slug": {
