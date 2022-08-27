@@ -28,14 +28,6 @@ module.exports = ({ env }) => ({
         uploadStream: {},
         delete: {},
       },
-      breakpoints: {
-        xxxlarge: 1920,
-        xxlarge: 1600,
-        xlarge: 1366,
-        large: 1024,
-        medium: 768,
-        small: 640,
-      },
     },
   },
 });
