@@ -1,20 +1,23 @@
 {
-  "collectionName": "components_blocks_interiors",
+  "collectionName": "components_blocks_heroes",
   "info": {
-    "displayName": "Interior",
-    "icon": "align-center",
+    "displayName": "Hero",
+    "icon": "align-justify",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "subtitle": {
+    "title": {
       "type": "string"
     },
-    "title": {
+    "subtitle": {
       "type": "string"
     },
     "content": {
       "type": "richtext"
+    },
+    "tall": {
+      "type": "boolean"
     },
     "backgroundColor": {
       "type": "enumeration",
@@ -24,6 +27,11 @@
         "light",
         "dark"
       ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.button"
     }
   }
 }

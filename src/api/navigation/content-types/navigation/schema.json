@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigations",
+  "info": {
+    "singularName": "navigation",
+    "pluralName": "navigations",
+    "displayName": "Navigation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "label"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.item"
+    }
+  }
+}

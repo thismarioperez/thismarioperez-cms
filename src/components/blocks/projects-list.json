@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_projects_lists",
+  "info": {
+    "displayName": "Projects List",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

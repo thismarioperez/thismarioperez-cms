@@ -2,19 +2,51 @@
   "collectionName": "components_common_buttons",
   "info": {
     "displayName": "Button",
-    "icon": "external-link-alt"
+    "icon": "external-link-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "color": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::color.color"
+    "label": {
+      "type": "string"
     },
-    "link": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.link"
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    },
+    "href": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "thin"
+      ],
+      "default": "default"
+    },
+    "round": {
+      "type": "boolean",
+      "default": false
+    },
+    "contained": {
+      "type": "boolean",
+      "default": true
+    },
+    "hollow": {
+      "type": "boolean",
+      "default": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "light",
+        "dark"
+      ]
     }
   }
 }
