@@ -17,4 +17,4 @@ echo "Build app"
 NODE_ENV=production yarn build
 
 echo "Restart pm2"
-pm2 start ~/ecosystem.json
+pm2 start ~/ecosystem.config.js
