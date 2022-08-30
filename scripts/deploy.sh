@@ -7,9 +7,6 @@ cd /home/ubuntu/Repositories/thismarioperez-cms
 echo "Update app from Github repo"
 git pull
 
-echo "Source correct npm version"
-nvm use
-
 echo "Install app dependencies"
 yarn install
 
