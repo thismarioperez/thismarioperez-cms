@@ -15,3 +15,6 @@ NODE_ENV=production yarn build
 
 echo "Restart pm2"
 pm2 start ~/ecosystem.config.js
+
+echo "Save pm2 process list"
+pm2 save
