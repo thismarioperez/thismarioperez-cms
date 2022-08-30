@@ -30,7 +30,12 @@ module.exports = [
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
-  'strapi::body',
+  {
+    name: 'strapi::body',
+    config: {
+      jsonLimit: '10mb', // increase limit for import/export plugin
+    },
+  },
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
