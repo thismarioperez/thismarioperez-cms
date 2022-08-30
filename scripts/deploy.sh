@@ -2,7 +2,7 @@ echo "Kill all running PM2 actions"
 pm2 kill
 
 echo "Jump to app folder"
-cd /home/ubuntu/thismarioperez-cms
+cd /home/ubuntu/Repositories/thismarioperez-cms
 
 echo "Update app from Github repo"
 git pull
