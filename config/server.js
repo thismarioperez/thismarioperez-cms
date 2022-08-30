@@ -4,5 +4,5 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
-  url: 'https://cms.thismarioperez.com',
+  url: env('PUBLIC_URL', ''),
 });
