@@ -19,5 +19,6 @@ jobs:
           username: ${{ secrets.AWS_USER }}
           key: ${{ secrets.AWS_KEY }}
           script: |
-            exec bash \-l
-            sh ~/Repositories/thismarioperez-cms/scripts/deploy.sh
+            exec bash
+            cd ~/Repositories/thismarioperez-cms
+            ./scripts/deploy.sh
