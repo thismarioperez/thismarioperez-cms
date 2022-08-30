@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Kill all running PM2 actions"
 pm2 kill
 
