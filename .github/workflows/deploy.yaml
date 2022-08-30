@@ -19,6 +19,6 @@ jobs:
           username: ${{ secrets.AWS_USER }}
           key: ${{ secrets.AWS_KEY }}
           script: |
-            NVM_DIR="$HOME/.nvm"
-            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            source ~/.bashrc
+            source ~/.nvm/nvm.sh
             sh ~/Repositories/thismarioperez-cms/scripts/deploy.sh
