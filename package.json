@@ -5,6 +5,8 @@
   "description": "A Strapi application",
   "scripts": {
     "db": "docker-compose up -d",
+    "db-backup": "docker-compose exec db mysqldump -uroot --all-databases > mariadb-dump-$(date +%F_%H-%M-%S).sql",
+    "db-restore": "docker-compose exec -T db mysql -uroot < ",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
